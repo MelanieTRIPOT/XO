@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace XO
 {
-    class Program
+    class Plate
     {
-        static void Main(string[] args)
-        {
+        int[,] Myplate; 
 
+        Plate(int x , int y)
+        {
+            Myplate = new int[x, y];
         }
     }
 }
